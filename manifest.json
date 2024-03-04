@@ -2,7 +2,7 @@
   "name": "Video Demo",
   "icons": [
     {
-      "src": "/video.vsg",
+      "src": "/video.svg",
       "type": "image/svg"
     }
   ],
