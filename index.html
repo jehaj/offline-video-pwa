@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <title>PWA Demo</title>
     <script defer src="script.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="video.svg" type="image/svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <h1>Demo of downloading videos in a PWA</h1>
     <h2>Available videos</h2>
     <ul id="available-videos">
-        <li><a href="/offline-video-pwa/vid/around.webm">Around</a> <button>Download</button></li>
-        <li><a href="/offline-video-pwa/vid/close.webm">Close</a> <button>Download</button></li>
+        <li><a href="vid/around.webm">Around</a> <button>Download</button></li>
+        <li><a href="vid/close.webm">Close</a> <button>Download</button></li>
     </ul>
     <h2>Downloaded files</h2>
     <ul id="downloaded-list">

@@ -1,0 +1,11 @@
+{
+  "name": "Video Demo",
+  "icons": [
+    {
+      "src": "/video.vsg",
+      "type": "image/svg"
+    }
+  ],
+  "start_url": "https://pwa.jehaj.dk",
+  "display": "standalone"
+}
