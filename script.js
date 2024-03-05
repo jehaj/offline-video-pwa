@@ -1,5 +1,7 @@
 "use strict";
 
+navigator.serviceWorker.register("sw.js");
+
 let downloadedList = document.querySelector("#downloaded-list");
 let availableList = document.querySelector("#available-videos");
 let videoPlayer = document.querySelector("video");
