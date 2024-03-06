@@ -11,3 +11,5 @@ python -m http.server
 standing in the root of this repository.
 
 Good luck!
+
+The project is done now. It followed the guide/example at [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
