@@ -4,7 +4,8 @@ const cacheName = "offline-v1";
 const contentToCache = [
     "/index.html",
     "/video.svg",
-    "/script.js"
+    "/script.js",
+    "/"
 ];
 self.addEventListener("install", event => {
     console.log("[Service Worker] Install");
